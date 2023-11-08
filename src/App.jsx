@@ -1,14 +1,36 @@
-import {Header,showAbout,showContact,showPortfolio,showResume} from './Header.jsx'
-import About from './About.jsx';
-import Content from './content.jsx';
-import Footer from './Footer.jsx';
+import React, { useState } from "react";
+import  Header from './components/Header.jsx'
+import About from './components/About.jsx';
+import Content from './components/Content.jsx';
+import Footer from './components/Footer.jsx';
+import Portfolio from "./components/Portfolio.jsx";
+import Contact from "./components/contact.jsx";
 function App() {
- 
-  return(
+  const [currentPage, setCurrentPage] = useState("About");
+  function handlePageChange(page) {
+    setCurrentPage(page);
+    console.log(currentPage)
+  }
+
+  const renderPage = () => {
+    if (currentPage === "About") {
+      return <About />;
+    }
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    }
+    if (currentPage === "Contact") {
+     return <Contact />;
+    }
+    //  return <Resume />;
+  };
+
+
+  return (
     <>
-    <Header/>
-    <Content displayAbout={showAbout} displayPortfolio={showPortfolio} displayContact={showContact} displayResume={showResume}/>
-    <Footer/>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <main>{renderPage()}</main>
+      <Footer />
     </>
   );
 }

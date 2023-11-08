@@ -11,6 +11,23 @@ header{
   top:0;
 }
 
+.break{
+  width: 1000vh;
+}
+
+.card{
+ 
+  background-color: aqua;
+  margin: 15px;
+ width: 25%;
+height: 20vh;
+}
+
+.portfolio{
+ display:flex;
+  flex-wrap: wrap;
+}
+
 footer {
   background-color: rgb(192, 45, 26);;
   position: fixed;
@@ -20,6 +37,7 @@ footer {
   font-size: 25px;
   height: 75px;
   padding: 10px;
+  margin-top: 15px;
 }
 
 :root {

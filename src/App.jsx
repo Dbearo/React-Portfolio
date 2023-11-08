@@ -4,7 +4,8 @@ import About from './components/About.jsx';
 import Content from './components/Content.jsx';
 import Footer from './components/Footer.jsx';
 import Portfolio from "./components/Portfolio.jsx";
-import Contact from "./components/contact.jsx";
+import Contact from "./components/Contact.jsx";
+import Resume from "./components/Resume.jsx";
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
   function handlePageChange(page) {
@@ -22,7 +23,7 @@ function App() {
     if (currentPage === "Contact") {
      return <Contact />;
     }
-    //  return <Resume />;
+     return <Resume />;
   };
 
 

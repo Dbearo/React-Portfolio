@@ -11,16 +11,55 @@ header{
   top:0;
 }
 
+.about{
+  margin-left: 35%;
+}
+
+.Contact{
+  margin-left: 40%;
+}
+
+li{
+  list-style-type: none;
+}
+
+#bioImage{
+  width: 25vh;
+}
+
+h2{
+  margin: 0;
+  margin-left: 5px;
+}
+p{
+  margin: 0;
+  margin-left: 5px;
+}
+img{
+  max-width: 75%;
+  margin: 15px;
+  margin-bottom: 0;
+  margin-left: 10%;
+}
+
 .break{
   width: 1000vh;
 }
 
 .card{
- 
-  background-color: aqua;
-  margin: 15px;
+  transition: 1s;
+  background-color: blue;
+  margin: 3%;
  width: 25%;
-height: 20vh;
+height: 25vh;
+margin-bottom: 150px;
+
+}
+
+.card:hover{
+  background-color: #213547;
+  width: 27%;
+  height: 27vh;
 }
 
 .portfolio{
@@ -56,6 +95,10 @@ footer {
   -webkit-text-size-adjust: 100%;
 }
 
+form{
+  margin-left: 30%;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -85,6 +128,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-top: 5px;
 }
 button:hover {
   border-color: #646cff;

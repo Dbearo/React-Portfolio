@@ -6,10 +6,10 @@ export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav>
       <ul>
-        <li><a href="#About" onClick={() => handlePageChange("About")} >About Me</a></li>
-        <li><a href="#Portfolio" onClick={() => handlePageChange("Portfolio")} >Portfolio</a></li>
-        <li><a href="#Resume" onClick={() => handlePageChange("Resume")} >Resume</a></li>
-        <li><a href="#Contact" onClick={() => handlePageChange("Contact")} >Contact</a></li>
+        <li><button><a href="#About" onClick={() => handlePageChange("About")} >About Me</a></button></li>
+        <li><button><a href="#Portfolio" onClick={() => handlePageChange("Portfolio")} >Portfolio</a></button></li>
+        <li><button><a href="#Resume" onClick={() => handlePageChange("Resume")} >Resume</a></button></li>
+        <li><button><a href="#Contact" onClick={() => handlePageChange("Contact")} >Contact</a></button></li>
       </ul>
     </nav>
   );

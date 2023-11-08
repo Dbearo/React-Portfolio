@@ -1,8 +1,8 @@
 export default function Resume() {
   
     return (
-      <div className="sections">
-        <section id="Contact">
+     
+        <section className="Contact" id="Contact">
           <h2>Resume</h2>
           {/* <p>Download my <a href="" alt="Resume" download>resume</a>.</p> */}
             <h3>Front-End Proficiencies:</h3>
@@ -21,6 +21,6 @@ export default function Resume() {
               <li>Sequelize, Mongoose</li>
             </ul>
         </section>
-      </div>
+      
     );
   }

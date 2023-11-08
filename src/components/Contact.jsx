@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FORM_ENDPOINT = "https://www.youtube.com/watch?v=NzcTIuiOzY0"; // TODO - update to the correct endpoint
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/4c4b8e40-7e44-11ee-860b-7f71ca04b948"; // TODO - update to the correct endpoint
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);

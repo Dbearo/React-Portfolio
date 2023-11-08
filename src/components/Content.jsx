@@ -1,13 +1,18 @@
+
 import About from './About.jsx';
-function Content(Props) {
- 
+
+function Content(props) {
 
 
-  return(
+
+      return(
     <>
     <About/>
     </>
   );
-}
+ 
+      }
+
+
 
 export default Content

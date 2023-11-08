@@ -38,7 +38,7 @@ p{
   margin-left: 5px;
 }
 img{
-  max-width: 75%;
+  max-height: 60%;
   margin: 15px;
   margin-bottom: 0;
   margin-left: 10%;
@@ -80,7 +80,6 @@ footer {
   background-color: rgb(192, 45, 26);;
   width: 100%;
   bottom: 0;
-  color: white;
   font-size: 25px;
   height: 100px;
   padding: 10px;

@@ -1,5 +1,5 @@
  import weather from "../../images/weather.png"
- 
+ import recipe from "../../images/recipe.png" 
  const data = [
     {
         title: "JH-Weather-Forecast",
@@ -8,34 +8,34 @@
         link: "https://github.com/Dbearo/JH-Weather-Forecast"
     },
     {
-        title: "example tssssssssssitle",
-        content: "example contwwwwwwwwwent",
+        title: "Text-Editor_Challenge",
+        content: "A downloadable text editor",
         image: "https://i.imgur.com/example.jpg",
-        link: ""
+        link: "https://github.com/Dbearo/Text-Editor_Challenge"
     },
     {
-        title: "examplewwwwwwww title",
-        content: "example content",
+        title: "Work-Day-Planner",
+        content: "A 9-5 work day planner",
         image: "https://i.imgur.com/example.jpg",
-        link: ""
+        link: "https://github.com/Dbearo/Work-Day-Planner"
     },
     {
-        title: "examplewwwwwwww title",
-        content: "example content",
+        title: "Note-Taker-Challenge",
+        content: "A note taker made using express",
         image: "https://i.imgur.com/example.jpg",
-        link: ""
+        link: "https://github.com/Dbearo/Note-Taker-Challenge"
     },
     {
-        title: "examplewwwwwwww title",
-        content: "example content",
+        title: "Logo-Generator",
+        content: "A logo generator run in the console",
         image: "https://i.imgur.com/example.jpg",
-        link: ""
+        link: "https://github.com/Dbearo/Logo-Generator"
     },
     {
-        title: "examplewwwwwwww title",
-        content: "example content",
-        image: "https://i.imgur.com/example.jpg",
-        link: ""
+        title: "Recipe Finder",
+        content: "an online recipe finder",
+        image: recipe,
+        link: "https://github.com/Albyhua/ProjectOne"
     },
 ]
 export default data
